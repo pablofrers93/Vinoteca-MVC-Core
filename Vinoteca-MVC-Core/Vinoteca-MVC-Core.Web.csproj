@@ -20,10 +20,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.9" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Vinoteca-MVC-Core.DataLayer\Vinoteca-MVC-Core.DataLayer.csproj" />
     <ProjectReference Include="..\Vinoteca-MVC-Core.Models\Vinoteca-MVC-Core.Models.csproj" />
   </ItemGroup>
 

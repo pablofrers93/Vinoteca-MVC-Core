@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\pablo\\OneDrive\\Desktop\\Instituto\\Programacion 3ero\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Vinoteca-MVC-Core.WEB.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Vinoteca-MVC-Core.WEB.bundle.scp.css"
+      "Id": "C:\\Users\\pablo\\OneDrive\\Desktop\\Instituto\\Programacion 3ero\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Vinoteca-MVC-Core.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Vinoteca-MVC-Core.Web.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\pablo\\OneDrive\\Desktop\\Instituto\\Programacion 3ero\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Vinoteca-MVC-Core.WEB.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Vinoteca-MVC-Core.Web.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Vinoteca-MVC-Core.WEB.props",
-      "PackagePath": "build\\Vinoteca-MVC-Core.WEB.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Vinoteca-MVC-Core.Web.props",
+      "PackagePath": "build\\Vinoteca-MVC-Core.Web.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Vinoteca-MVC-Core.WEB.props",
-      "PackagePath": "buildMultiTargeting\\Vinoteca-MVC-Core.WEB.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Vinoteca-MVC-Core.Web.props",
+      "PackagePath": "buildMultiTargeting\\Vinoteca-MVC-Core.Web.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Vinoteca-MVC-Core.WEB.props",
-      "PackagePath": "buildTransitive\\Vinoteca-MVC-Core.WEB.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Vinoteca-MVC-Core.Web.props",
+      "PackagePath": "buildTransitive\\Vinoteca-MVC-Core.Web.props"
     }
   ],
   "ElementsToRemove": []

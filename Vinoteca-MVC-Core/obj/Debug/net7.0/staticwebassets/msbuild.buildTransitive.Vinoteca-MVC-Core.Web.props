@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\buildMultiTargeting\Vinoteca-MVC-Core.WEB.props" />
+  <Import Project="..\buildMultiTargeting\Vinoteca-MVC-Core.Web.props" />
 </Project>

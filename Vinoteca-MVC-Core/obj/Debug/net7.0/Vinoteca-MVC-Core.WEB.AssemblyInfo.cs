@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Vinoteca-MVC-Core.WEB")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Vinoteca-MVC-Core.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Vinoteca-MVC-Core.WEB")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Vinoteca-MVC-Core.WEB")]
+[assembly: System.Reflection.AssemblyProductAttribute("Vinoteca-MVC-Core.Web")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Vinoteca-MVC-Core.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

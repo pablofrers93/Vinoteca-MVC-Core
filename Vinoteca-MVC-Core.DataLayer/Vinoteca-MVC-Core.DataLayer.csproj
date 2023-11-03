@@ -10,7 +10,10 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Migrations\" />
-    <Folder Include="Repository\Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vinoteca-MVC-Core\Vinoteca-MVC-Core.Web.csproj" />
   </ItemGroup>
 
 </Project>

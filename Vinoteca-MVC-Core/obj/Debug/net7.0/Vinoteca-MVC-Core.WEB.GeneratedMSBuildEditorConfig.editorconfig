@@ -32,6 +32,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/pablo/OneDrive/Desktop/Instituto/Programacion 3ero/Vinoteca-MVC-Core/Vinoteca-MVC-Core/Vinoteca-MVC-Core/Views/Variety/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFyaWV0eVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pablo/OneDrive/Desktop/Instituto/Programacion 3ero/Vinoteca-MVC-Core/Vinoteca-MVC-Core/Vinoteca-MVC-Core/Views/Variety/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFyaWV0eVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pablo/OneDrive/Desktop/Instituto/Programacion 3ero/Vinoteca-MVC-Core/Vinoteca-MVC-Core/Vinoteca-MVC-Core/Views/Variety/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFyaWV0eVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pablo/OneDrive/Desktop/Instituto/Programacion 3ero/Vinoteca-MVC-Core/Vinoteca-MVC-Core/Vinoteca-MVC-Core/Views/Variety/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFyaWV0eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/pablo/OneDrive/Desktop/Instituto/Programacion 3ero/Vinoteca-MVC-Core/Vinoteca-MVC-Core/Vinoteca-MVC-Core/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,4 +58,4 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/pablo/OneDrive/Desktop/Instituto/Programacion 3ero/Vinoteca-MVC-Core/Vinoteca-MVC-Core/Vinoteca-MVC-Core/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-0sissi985i
+build_metadata.AdditionalFiles.CssScope = b-tr9fbbhr9m
