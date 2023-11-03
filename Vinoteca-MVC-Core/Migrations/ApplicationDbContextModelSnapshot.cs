@@ -21,6 +21,49 @@ namespace Vinoteca_MVC_Core.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Vinoteca_MVC_Core.Models.Models.Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<int>("Stock")
+                        .HasColumnType("int");
+
+                    b.Property<int>("VarietyId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Winemaker_Notes")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<int>("WineryId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("VarietyId");
+
+                    b.HasIndex("WineryId");
+
+                    b.ToTable("Products");
+                });
+
             modelBuilder.Entity("Vinoteca_MVC_Core.Models.Models.Variety", b =>
                 {
                     b.Property<int>("Id")
@@ -40,6 +83,47 @@ namespace Vinoteca_MVC_Core.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Varieties");
+                });
+
+            modelBuilder.Entity("Vinoteca_MVC_Core.Models.Models.Winery", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("WineryName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Wineries");
+                });
+
+            modelBuilder.Entity("Vinoteca_MVC_Core.Models.Models.Product", b =>
+                {
+                    b.HasOne("Vinoteca_MVC_Core.Models.Models.Variety", "Variety")
+                        .WithMany()
+                        .HasForeignKey("VarietyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Vinoteca_MVC_Core.Models.Models.Winery", "Winery")
+                        .WithMany()
+                        .HasForeignKey("WineryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Variety");
+
+                    b.Navigation("Winery");
                 });
 #pragma warning restore 612, 618
         }

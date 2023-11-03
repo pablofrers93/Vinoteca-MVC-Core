@@ -10,3 +10,14 @@ C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vi
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\obj\Debug\net7.0\refint\Vinoteca-MVC-Core.DataLayer.dll
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\obj\Debug\net7.0\Vinoteca-MVC-Core.DataLayer.pdb
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\obj\Debug\net7.0\ref\Vinoteca-MVC-Core.DataLayer.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\bin\Debug\net7.0\Vinoteca-MVC-Core.Web.deps.json
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\bin\Debug\net7.0\Vinoteca-MVC-Core.Web.runtimeconfig.json
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\bin\Debug\net7.0\appsettings.json
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\bin\Debug\net7.0\Vinoteca-MVC-Core.Web.staticwebassets.runtime.json
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\bin\Debug\net7.0\Vinoteca-MVC-Core.Web.exe
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\bin\Debug\net7.0\Vinoteca-MVC-Core.Models.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\bin\Debug\net7.0\Vinoteca-MVC-Core.Web.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\bin\Debug\net7.0\Vinoteca-MVC-Core.Web.pdb
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\bin\Debug\net7.0\Vinoteca-MVC-Core.Models.pdb
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\obj\Debug\net7.0\Vinoteca-MVC-Core.DataLayer.csproj.CopyComplete

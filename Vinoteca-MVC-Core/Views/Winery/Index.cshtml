@@ -1,0 +1,62 @@
+﻿@using Vinoteca_MVC_Core.Models.Models
+@model IEnumerable<Winery>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <div class="row w-75">
+        <div class="col-6">
+            <h2>Winery List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Winery" asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> &nbsp
+                New Winery
+            </a>
+        </div>
+    </div>
+    <hr />
+
+    <table class="table table-bordered table-striped w-75">
+        <thead>
+            <tr>
+                <th style="width:50%">Winery Name</th>
+                <th style="width:18%">Address</th>
+                <th style="width:32%">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Any())
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.WineryName</td>
+                        <td>@item.Address</td>
+                        <td>
+                            <a class="btn btn-warning" asp-controller="Winery" asp-action="Edit" asp-route-id="@item.Id">
+                                <i class="bi bi-pencil-square"></i> &nbsp
+                                Edit
+                            </a>
+                            <a class="btn btn-danger" asp-controller="Winery" asp-action="Delete" asp-route-id="@item.Id">
+                                <i class="bi bi-trash3"></i>  &nbsp
+                                Delete
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="2">
+                        No wineries added yet
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

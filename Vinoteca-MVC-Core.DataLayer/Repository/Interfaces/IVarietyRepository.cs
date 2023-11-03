@@ -7,7 +7,7 @@ using Vinoteca_MVC_Core.Models.Models;
 
 namespace Vinoteca_MVC_Core.DataLayer.Repository.Interfaces
 {
-    public interface IVarietyRepositoryIVarietyRepository : IRepository<Variety>
+    public interface IVarietyRepository : IRepository<Variety>
     {
         void Update(Variety variety);
         bool Exists(Variety variety);

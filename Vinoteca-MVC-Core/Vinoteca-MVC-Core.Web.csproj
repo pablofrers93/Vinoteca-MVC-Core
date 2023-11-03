@@ -10,7 +10,6 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\" />
     <Folder Include="Areas\Customer\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Vinoteca-MVC-Core.Models\Vinoteca-MVC-Core.Models.csproj" />
+    <ProjectReference Include="..\Vinoteca-MVC-Core.Utilities\Vinoteca-MVC-Core.Utilities.csproj" />
   </ItemGroup>
 
 </Project>

@@ -253,3 +253,6 @@ C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vi
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\Vinoteca-MVC-Core.Utilities.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\Vinoteca-MVC-Core.Utilities.pdb
