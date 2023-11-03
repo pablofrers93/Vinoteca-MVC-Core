@@ -1,0 +1,12 @@
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\bin\Debug\net7.0\Vinoteca-MVC-Core.DataLayer.deps.json
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\bin\Debug\net7.0\Vinoteca-MVC-Core.DataLayer.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\bin\Debug\net7.0\Vinoteca-MVC-Core.DataLayer.pdb
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\obj\Debug\net7.0\Vinoteca-MVC-Core.DataLayer.csproj.AssemblyReference.cache
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\obj\Debug\net7.0\Vinoteca-MVC-Core.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\obj\Debug\net7.0\Vinoteca-MVC-Core.DataLayer.AssemblyInfoInputs.cache
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\obj\Debug\net7.0\Vinoteca-MVC-Core.DataLayer.AssemblyInfo.cs
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\obj\Debug\net7.0\Vinoteca-MVC-Core.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\obj\Debug\net7.0\Vinoteca-MVC-Core.DataLayer.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\obj\Debug\net7.0\refint\Vinoteca-MVC-Core.DataLayer.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\obj\Debug\net7.0\Vinoteca-MVC-Core.DataLayer.pdb
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.DataLayer\obj\Debug\net7.0\ref\Vinoteca-MVC-Core.DataLayer.dll

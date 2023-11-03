@@ -1,0 +1,12 @@
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.Utilities\bin\Debug\net7.0\Vinoteca-MVC-Core.Utilities.deps.json
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.Utilities\bin\Debug\net7.0\Vinoteca-MVC-Core.Utilities.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.Utilities\bin\Debug\net7.0\Vinoteca-MVC-Core.Utilities.pdb
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.Utilities\obj\Debug\net7.0\Vinoteca-MVC-Core.Utilities.csproj.AssemblyReference.cache
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.Utilities\obj\Debug\net7.0\Vinoteca-MVC-Core.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.Utilities\obj\Debug\net7.0\Vinoteca-MVC-Core.Utilities.AssemblyInfoInputs.cache
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.Utilities\obj\Debug\net7.0\Vinoteca-MVC-Core.Utilities.AssemblyInfo.cs
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.Utilities\obj\Debug\net7.0\Vinoteca-MVC-Core.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.Utilities\obj\Debug\net7.0\Vinoteca-MVC-Core.Utilities.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.Utilities\obj\Debug\net7.0\refint\Vinoteca-MVC-Core.Utilities.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.Utilities\obj\Debug\net7.0\Vinoteca-MVC-Core.Utilities.pdb
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core.Utilities\obj\Debug\net7.0\ref\Vinoteca-MVC-Core.Utilities.dll
