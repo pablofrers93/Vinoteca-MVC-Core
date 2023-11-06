@@ -36,5 +36,9 @@ namespace Vinoteca_MVC_Core.DataLayer.Repository
         {
             return (_db.Varieties.Any(c => c.VarietyName == variety.VarietyName && c.Id == variety.Id && variety.DisplayOrder == c.DisplayOrder));
         }
+        public void Save()
+        {
+            _db.SaveChanges();
+        }
     }
 }

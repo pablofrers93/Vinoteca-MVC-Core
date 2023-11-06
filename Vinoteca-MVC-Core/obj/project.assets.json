@@ -4205,6 +4205,21 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "Vinoteca-MVC-Core.DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
+          "Vinoteca-MVC-Core.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vinoteca-MVC-Core.DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vinoteca-MVC-Core.DataLayer.dll": {}
+        }
+      },
       "Vinoteca-MVC-Core.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -11850,6 +11865,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "Vinoteca-MVC-Core.DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../Vinoteca-MVC-Core.DataLayer/Vinoteca-MVC-Core.DataLayer.csproj",
+      "msbuildProject": "../Vinoteca-MVC-Core.DataLayer/Vinoteca-MVC-Core.DataLayer.csproj"
+    },
     "Vinoteca-MVC-Core.Models/1.0.0": {
       "type": "project",
       "path": "../Vinoteca-MVC-Core.Models/Vinoteca-MVC-Core.Models.csproj",
@@ -11867,6 +11887,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.13",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.9",
+      "Vinoteca-MVC-Core.DataLayer >= 1.0.0",
       "Vinoteca-MVC-Core.Models >= 1.0.0",
       "Vinoteca-MVC-Core.Utilities >= 1.0.0"
     ]
@@ -11904,6 +11925,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\pablo\\OneDrive\\Desktop\\Instituto\\Programacion 3ero\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core.DataLayer\\Vinoteca-MVC-Core.DataLayer.csproj": {
+              "projectPath": "C:\\Users\\pablo\\OneDrive\\Desktop\\Instituto\\Programacion 3ero\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core.DataLayer\\Vinoteca-MVC-Core.DataLayer.csproj"
+            },
             "C:\\Users\\pablo\\OneDrive\\Desktop\\Instituto\\Programacion 3ero\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core.Models\\Vinoteca-MVC-Core.Models.csproj": {
               "projectPath": "C:\\Users\\pablo\\OneDrive\\Desktop\\Instituto\\Programacion 3ero\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core.Models\\Vinoteca-MVC-Core.Models.csproj"
             },

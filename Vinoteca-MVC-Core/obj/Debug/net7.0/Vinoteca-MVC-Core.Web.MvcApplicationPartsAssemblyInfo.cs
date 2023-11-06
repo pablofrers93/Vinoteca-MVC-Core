@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Vinoteca-MVC-Core.DataLayer")]
 [assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Vinoteca-MVC-Core.Models")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

@@ -12,6 +12,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.13",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.9",
+          "Vinoteca-MVC-Core.DataLayer": "1.0.0",
           "Vinoteca-MVC-Core.Models": "1.0.0",
           "Vinoteca-MVC-Core.Utilities": "1.0.0"
         },
@@ -2625,6 +2626,16 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "Vinoteca-MVC-Core.DataLayer/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
+          "Vinoteca-MVC-Core.Models": "1.0.0"
+        },
+        "runtime": {
+          "Vinoteca-MVC-Core.DataLayer.dll": {}
+        }
+      },
       "Vinoteca-MVC-Core.Models/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
@@ -4339,6 +4350,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Vinoteca-MVC-Core.DataLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Vinoteca-MVC-Core.Models/1.0.0": {
       "type": "project",

@@ -1,22 +1,23 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using Vinoteca_MVC_Core.Data;
+using Vinoteca_MVC_Core.DataLayer.Repository.Interfaces;
 using Vinoteca_MVC_Core.Models.Models;
 
 namespace Vinoteca_MVC_Core.Controllers
 {
 	public class VarietyController : Controller
 	{
-		private readonly ApplicationDbContext _db;
+		private readonly IVarietyRepository _varietyRepo;
 
-        public VarietyController(ApplicationDbContext db)
+        public VarietyController(IVarietyRepository varietyRepo)
         {
-            _db = db;
+            _varietyRepo = varietyRepo;
         }
 
         public IActionResult Index()
 		{
-			var varietyList = _db.Varieties.ToList();
+			var varietyList = _varietyRepo.GetAll();
 			return View(varietyList);
 		}
 
@@ -34,13 +35,14 @@ namespace Vinoteca_MVC_Core.Controllers
 			{
 				return View(variety); 
 			}
-			if (_db.Varieties.Any(v=> v.VarietyName == variety.VarietyName))
+			if (_varietyRepo.Exists(variety))
 			{
 				ModelState.AddModelError(string.Empty, "Variety already exists. Try another different.");
 				return View(variety);
 			}
-			_db.Varieties.Add(variety);
-			_db.SaveChanges();
+			_varietyRepo.Add(variety);
+            _varietyRepo.Save();
+            TempData["success"]="Record added successfully";
 			return RedirectToAction("Index");	
 		}
         [HttpGet]
@@ -66,13 +68,14 @@ namespace Vinoteca_MVC_Core.Controllers
             {
                 return View(variety);
             }
-            if (_db.Varieties.Any(v => v.VarietyName == variety.VarietyName && v.Id == variety.Id))
+            if (_db.Varieties.Any(v => v.VarietyName == variety.VarietyName && v.Id != variety.Id))
             {
                 ModelState.AddModelError(string.Empty, "Variety already exists. Try another different.");
                 return View(variety);
             }
             _db.Varieties.Update(variety);
             _db.SaveChanges();
+            TempData["success"] = "Record updated successfully";
             return RedirectToAction("Index");
         }
         [HttpGet]
@@ -101,6 +104,8 @@ namespace Vinoteca_MVC_Core.Controllers
             }
             _db.Varieties.Remove(variety);
             _db.SaveChanges();
+            TempData["success"] = "Record removed successfully";
+
             return RedirectToAction("Index");
         }
     }
