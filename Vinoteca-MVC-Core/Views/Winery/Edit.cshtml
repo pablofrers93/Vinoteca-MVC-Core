@@ -1,29 +1,29 @@
 ﻿@using Vinoteca_MVC_Core.Models.Models
-@model Variety
+@model Winery
 @{
     ViewData["Title"] = "Edit";
 }
 
-<form method="post" asp-controller="Variety" asp-action="Edit">
+<form method="post" asp-controller="Winery" asp-action="Edit">
     <div class="border p-4">
-        <h2>Edit Variety</h2>
+        <h2>Edit Winery</h2>
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="mb-3">
-            <label asp-for="VarietyName" class="form-label"></label>
-            <input asp-for="VarietyName" class="form-control" />
-            <span asp-validation-for="VarietyName" class="text-danger"></span>
+            <label asp-for="WineryName" class="form-label"></label>
+            <input asp-for="WineryName" class="form-control" />
+            <span asp-validation-for="WineryName" class="text-danger"></span>
         </div>
         <div class="mb-3">
-            <label asp-for="DisplayOrder" class="form-label"></label>
-            <input asp-for="DisplayOrder" class="form-control" />
-            <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+            <label asp-for="Address" class="form-label"></label>
+            <input asp-for="Address" class="form-control" />
+            <span asp-validation-for="Address" class="text-danger"></span>
         </div>
 
         <button type="submit" class="btn btn-warning me-3" style="width: 200px;">
             <i class="bi bi-check2-square"></i> &nbsp
             Edit
         </button>
-        <a asp-controller="Variety" asp-action="Index" class="btn btn-success" style="width: 200px;">
+        <a asp-controller="Winery" asp-action="Index" class="btn btn-success" style="width: 200px;">
             <i class="bi bi-skip-backward"></i> &nbsp
             Back to List
         </a>

@@ -16,6 +16,7 @@ namespace Vinoteca_MVC_Core.DataLayer.Repository
         {
             _db = db;
             Varieties = new VarietyRepository(db);
+            Wineries = new WineryRepository(db);
         }
 
         public IVarietyRepository Varieties { get; private set; }

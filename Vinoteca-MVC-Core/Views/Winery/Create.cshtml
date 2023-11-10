@@ -1,7 +1,39 @@
-﻿
+﻿@using Vinoteca_MVC_Core.Models.Models
+@model Winery
 @{
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<form method="post" asp-controller="Winery" asp-action="Create">
+    <div class="border p-4">
+        <h2>New Variety</h2>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="mb-3">
+            <label asp-for="WineryName" class="form-label"></label>
+            <input asp-for="WineryName" class="form-control" />
+            <span asp-validation-for="WineryName" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Address" class="form-label"></label>
+            <input asp-for="Address" class="form-control" />
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+        <div class="d-flex">
+            <button type="submit" class="btn btn-primary me-3" style="width: 200px;">
+                <i class="bi bi-check2-square"></i> &nbsp
+                Save
+            </button>
+            <a asp-controller="Variety" asp-action="Index" class="btn btn-success" style="width: 200px;">
+                <i class="bi bi-skip-backward"></i> &nbsp
+                Back to List
+            </a>
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial"></partial>
+    }
+}
 
