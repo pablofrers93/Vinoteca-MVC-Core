@@ -20,9 +20,11 @@ namespace Vinoteca_MVC_Core.DataLayer.Repository
 
         public IVarietyRepository Varieties { get; private set; }
 
+        public IWineryRepository Wineries { get; private set; }
+
         public void Save()
         {
-            throw new NotImplementedException();
+            _db.SaveChanges();
         }
     }
 }

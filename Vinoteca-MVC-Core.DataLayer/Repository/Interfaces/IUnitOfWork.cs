@@ -9,6 +9,7 @@ namespace Vinoteca_MVC_Core.DataLayer.Repository.Interfaces
     public interface IUnitOfWork
     {
         IVarietyRepository Varieties { get; }
+        IWineryRepository Wineries { get; }
         void Save();
     }
 }

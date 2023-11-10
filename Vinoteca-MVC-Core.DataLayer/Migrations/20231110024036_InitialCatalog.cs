@@ -2,14 +2,44 @@
 
 #nullable disable
 
-namespace Vinoteca_MVC_Core.Migrations
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
+namespace Vinoteca_MVC_Core.DataLayer.Migrations
 {
     /// <inheritdoc />
-    public partial class CreateProductsTableInDb : Migration
+    public partial class InitialCatalog : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Varieties",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    VarietyName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    DisplayOrder = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Varieties", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Wineries",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    WineryName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Wineries", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Products",
                 columns: table => new
@@ -41,6 +71,16 @@ namespace Vinoteca_MVC_Core.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.InsertData(
+                table: "Varieties",
+                columns: new[] { "Id", "DisplayOrder", "VarietyName" },
+                values: new object[,]
+                {
+                    { 1, 3, "Malbec" },
+                    { 2, 3, "Merlot" },
+                    { 3, 3, "Cabernet Souvignon" }
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Products_VarietyId",
                 table: "Products",
@@ -50,6 +90,12 @@ namespace Vinoteca_MVC_Core.Migrations
                 name: "IX_Products_WineryId",
                 table: "Products",
                 column: "WineryId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Varieties_VarietyName",
+                table: "Varieties",
+                column: "VarietyName",
+                unique: true);
         }
 
         /// <inheritdoc />
@@ -57,6 +103,12 @@ namespace Vinoteca_MVC_Core.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Products");
+
+            migrationBuilder.DropTable(
+                name: "Varieties");
+
+            migrationBuilder.DropTable(
+                name: "Wineries");
         }
     }
 }

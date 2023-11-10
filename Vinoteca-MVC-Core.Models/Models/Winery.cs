@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
@@ -8,7 +9,8 @@ using System.Threading.Tasks;
 
 namespace Vinoteca_MVC_Core.Models.Models
 {
-	public class Winery
+    [Index(nameof(WineryName), IsUnique = true)]
+    public class Winery
 	{
 		[Key]
 		public int Id { get; set; }

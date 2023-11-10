@@ -8,11 +8,11 @@ using Vinoteca_MVC_Core.Data;
 
 #nullable disable
 
-namespace Vinoteca_MVC_Core.Migrations
+namespace Vinoteca_MVC_Core.DataLayer.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231103210104_CreateProductsTableInDb")]
-    partial class CreateProductsTableInDb
+    [Migration("20231110024036_InitialCatalog")]
+    partial class InitialCatalog
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -85,7 +85,30 @@ namespace Vinoteca_MVC_Core.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("VarietyName")
+                        .IsUnique();
+
                     b.ToTable("Varieties");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DisplayOrder = 3,
+                            VarietyName = "Malbec"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            DisplayOrder = 3,
+                            VarietyName = "Merlot"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            DisplayOrder = 3,
+                            VarietyName = "Cabernet Souvignon"
+                        });
                 });
 
             modelBuilder.Entity("Vinoteca_MVC_Core.Models.Models.Winery", b =>

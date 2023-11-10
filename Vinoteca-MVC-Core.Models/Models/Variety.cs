@@ -5,9 +5,12 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.EntityFrameworkCore;
 
 namespace Vinoteca_MVC_Core.Models.Models
-{
+{	
+	[Index(nameof(VarietyName), IsUnique = true)]	
 	public class Variety
 	{
 		[Key]
