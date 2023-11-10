@@ -4,7 +4,8 @@
     {
         public int Id { get; set; }
         public string Description { get; set; }
-        public string Winemaker_Notes { get; set; }
+        public string Winery { get; set; }
+        public string Variety { get; set; }
         public double Price { get; set; }
         public double Stock { get; set; }
     }

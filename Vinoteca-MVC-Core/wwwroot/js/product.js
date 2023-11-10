@@ -4,14 +4,13 @@ $(document).ready(function () {
 
     productTable = $('#tblProducts').DataTable({
         "ajax": {
-            "url": "/Admin/Product/GetAll"
+            "url": "/Product/GetAll"
         },
         "columns": [
             { "data": "description" },
-            { "data": "winemaker_Notes" },
+            { "data": "winery" },
             { "data": "variety" },
             { "data": "price" },
-            { "data": "winery" },
             { "data": "stock" },
             {
                 "data": "id",

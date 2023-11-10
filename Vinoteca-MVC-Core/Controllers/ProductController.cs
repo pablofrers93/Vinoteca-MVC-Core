@@ -19,7 +19,7 @@ namespace Vinoteca_MVC_Core.Controllers
         }
 
         public IActionResult Index()
-        {
+        {     
             return View();
         }
         public IActionResult Offers()
@@ -143,7 +143,8 @@ namespace Vinoteca_MVC_Core.Controllers
                     Id = product.Id,
                     Description = product.Description,
                     Stock = product.Stock,
-                    Winemaker_Notes = product.Winemaker_Notes,
+                    Winery = _unitOfWork.Wineries.Get(w => w.Id == product.WineryId).WineryName,
+                    Variety = _unitOfWork.Varieties.Get(v => v.Id == product.VarietyId).VarietyName,
                     Price = product.Price,
                 };
                 productsListVm.Add(productVm);
