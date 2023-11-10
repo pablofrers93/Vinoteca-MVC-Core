@@ -1,3 +1,11 @@
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.csproj.AssemblyReference.cache
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.AssemblyInfoInputs.cache
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.AssemblyInfo.cs
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.csproj.CoreCompileInputs.cache
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.RazorAssemblyInfo.cache
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.RazorAssemblyInfo.cs
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\appsettings.json
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\Vinoteca-MVC-Core.Web.staticwebassets.runtime.json
@@ -233,15 +241,6 @@ C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vi
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\Vinoteca-MVC-Core.DataLayer.pdb
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\Vinoteca-MVC-Core.Models.pdb
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\Vinoteca-MVC-Core.Utilities.pdb
-C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.csproj.AssemblyReference.cache
-C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.AssemblyInfoInputs.cache
-C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.AssemblyInfo.cs
-C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.csproj.CoreCompileInputs.cache
-C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.RazorAssemblyInfo.cache
-C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.RazorAssemblyInfo.cs
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\staticwebassets\msbuild.Vinoteca-MVC-Core.Web.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\staticwebassets\msbuild.build.Vinoteca-MVC-Core.Web.props
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Vinoteca-MVC-Core.Web.props
@@ -258,3 +257,4 @@ C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vi
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.pdb
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.genruntimeconfig.cache
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\ref\Vinoteca-MVC-Core.Web.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.MvcApplicationPartsAssemblyInfo.cs

@@ -17,11 +17,15 @@ namespace Vinoteca_MVC_Core.DataLayer.Repository
             _db = db;
             Varieties = new VarietyRepository(db);
             Wineries = new WineryRepository(db);
+            Products = new ProductRepository(db);
         }
 
         public IVarietyRepository Varieties { get; private set; }
 
         public IWineryRepository Wineries { get; private set; }
+
+        public IProductRepository Products { get; private set; }
+
 
         public void Save()
         {

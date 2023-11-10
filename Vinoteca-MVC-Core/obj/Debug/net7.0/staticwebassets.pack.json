@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\pablo\\OneDrive\\Desktop\\Instituto\\Programacion 3ero\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\wwwroot\\images\\SinImagenDisponible.jpg",
+      "PackagePath": "staticwebassets\\images\\SinImagenDisponible.jpg"
+    },
+    {
       "Id": "C:\\Users\\pablo\\OneDrive\\Desktop\\Instituto\\Programacion 3ero\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\wwwroot\\images\\carrousel1.jpg",
       "PackagePath": "staticwebassets\\images\\carrousel1.jpg"
     },
@@ -35,6 +39,14 @@
     {
       "Id": "C:\\Users\\pablo\\OneDrive\\Desktop\\Instituto\\Programacion 3ero\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\wwwroot\\images\\logoicon.png",
       "PackagePath": "staticwebassets\\images\\logoicon.png"
+    },
+    {
+      "Id": "C:\\Users\\pablo\\OneDrive\\Desktop\\Instituto\\Programacion 3ero\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\wwwroot\\images\\products\\c332080a-6c53-4eaa-852e-d6a1154fb617.webp",
+      "PackagePath": "staticwebassets\\images\\products\\c332080a-6c53-4eaa-852e-d6a1154fb617.webp"
+    },
+    {
+      "Id": "C:\\Users\\pablo\\OneDrive\\Desktop\\Instituto\\Programacion 3ero\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
       "Id": "C:\\Users\\pablo\\OneDrive\\Desktop\\Instituto\\Programacion 3ero\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\Vinoteca-MVC-Core\\wwwroot\\js\\site.js",
