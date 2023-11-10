@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Vinoteca_MVC_Core.Data;
+using Vinoteca_MVC_Core.DataLayer.Repository;
+using Vinoteca_MVC_Core.DataLayer.Repository.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(
 	options => options
 	.UseSqlServer(builder.Configuration
 	.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IVarietyRepository, VarietyRepository>();
 
 var app = builder.Build();
 

@@ -13,6 +13,7 @@ namespace Vinoteca_MVC_Core.DataLayer.Repository.Interfaces
         IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string? propertiesNames = null);
         void Add(T entity);
         void Delete(T entity);
+        void Save();
 
     }
 }

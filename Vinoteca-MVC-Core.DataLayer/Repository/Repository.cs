@@ -71,5 +71,10 @@ namespace Vinoteca_MVC_Core.DataLayer.Repository
             }
             return query.ToList();
         }
+
+        public void Save()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

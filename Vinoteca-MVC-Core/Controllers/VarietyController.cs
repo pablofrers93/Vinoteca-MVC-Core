@@ -6,18 +6,18 @@ using Vinoteca_MVC_Core.Models.Models;
 
 namespace Vinoteca_MVC_Core.Controllers
 {
-	public class VarietyController : Controller
-	{
-		private readonly IVarietyRepository _varietyRepo;
+    public class VarietyController : Controller
+    {
+        private readonly IUnitOfWork  _unitOfWork;
 
-        public VarietyController(IVarietyRepository varietyRepo)
+        public VarietyController(IUnitOfWork unitOfWork)
         {
-            _varietyRepo = varietyRepo;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
 		{
-			var varietyList = _varietyRepo.GetAll();
+			var varietyList = _unitOfWork.Varieties.GetAll();
 			return View(varietyList);
 		}
 
@@ -35,13 +35,13 @@ namespace Vinoteca_MVC_Core.Controllers
 			{
 				return View(variety); 
 			}
-			if (_varietyRepo.Exists(variety))
+			if (_unitOfWork.Varieties.Exists(variety))
 			{
 				ModelState.AddModelError(string.Empty, "Variety already exists. Try another different.");
 				return View(variety);
 			}
-			_varietyRepo.Add(variety);
-            _varietyRepo.Save();
+            _unitOfWork.Varieties.Add(variety);
+            _unitOfWork.Varieties.Save();
             TempData["success"]="Record added successfully";
 			return RedirectToAction("Index");	
 		}
@@ -52,7 +52,7 @@ namespace Vinoteca_MVC_Core.Controllers
 			{
 				return NotFound();
 			}
-			var variety = _db.Varieties.FirstOrDefault(v => v.Id == id);
+			var variety = _unitOfWork.Varieties.Get(v=> v.Id == id);
 			if (variety == null)
 			{
 				return NotFound();
@@ -68,13 +68,13 @@ namespace Vinoteca_MVC_Core.Controllers
             {
                 return View(variety);
             }
-            if (_db.Varieties.Any(v => v.VarietyName == variety.VarietyName && v.Id != variety.Id))
+            if (_unitOfWork.Varieties.Exists(variety))
             {
                 ModelState.AddModelError(string.Empty, "Variety already exists. Try another different.");
                 return View(variety);
             }
-            _db.Varieties.Update(variety);
-            _db.SaveChanges();
+            _unitOfWork.Varieties.Update(variety);
+            _unitOfWork.Varieties.Save();
             TempData["success"] = "Record updated successfully";
             return RedirectToAction("Index");
         }
@@ -85,7 +85,7 @@ namespace Vinoteca_MVC_Core.Controllers
             {
                 return NotFound();
             }
-            var variety = _db.Varieties.FirstOrDefault(v => v.Id == id);
+            var variety = _unitOfWork.Varieties.Get(v => v.Id == id);
             if (variety == null)
             {
                 return NotFound();
@@ -97,13 +97,13 @@ namespace Vinoteca_MVC_Core.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Delete(int id)
         {
-            var variety = _db.Varieties.FirstOrDefault(v => v.Id == id);
+            var variety = _unitOfWork.Varieties.Get(v => v.Id == id);
             if (variety == null)
             {
                 ModelState.AddModelError(string.Empty, "Variety does not exist.");
             }
-            _db.Varieties.Remove(variety);
-            _db.SaveChanges();
+            _unitOfWork.Varieties.Delete(variety);
+            _unitOfWork.Varieties.Save();
             TempData["success"] = "Record removed successfully";
 
             return RedirectToAction("Index");
