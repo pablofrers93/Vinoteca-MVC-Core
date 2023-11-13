@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Vinoteca_MVC_Core.Models.Models;
 
 namespace Vinoteca_MVC_Core.Data
 {
-	public class ApplicationDbContext:DbContext
+	public class ApplicationDbContext:IdentityDbContext
 	{
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext>options):base(options)
         {
@@ -11,6 +12,7 @@ namespace Vinoteca_MVC_Core.Data
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Variety>().HasData(
                 new Variety { Id = 1, VarietyName = "Malbec", DisplayOrder = 3 },
                 new Variety { Id = 2, VarietyName = "Merlot", DisplayOrder = 3 },

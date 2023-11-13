@@ -258,3 +258,11 @@ C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vi
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.genruntimeconfig.cache
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\ref\Vinoteca-MVC-Core.Web.dll
 C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\obj\Debug\net7.0\Vinoteca-MVC-Core.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\pablo\OneDrive\Desktop\Instituto\Programacion 3ero\Vinoteca-MVC-Core\Vinoteca-MVC-Core\Vinoteca-MVC-Core\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
