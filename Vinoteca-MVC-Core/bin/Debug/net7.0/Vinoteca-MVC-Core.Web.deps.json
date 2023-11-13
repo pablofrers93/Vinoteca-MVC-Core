@@ -2728,13 +2728,17 @@
       "Vinoteca-MVC-Core.Models/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
-          "Microsoft.EntityFrameworkCore": "7.0.13"
+          "Microsoft.EntityFrameworkCore": "7.0.13",
+          "Microsoft.Extensions.Identity.Stores": "7.0.13"
         },
         "runtime": {
           "Vinoteca-MVC-Core.Models.dll": {}
         }
       },
       "Vinoteca-MVC-Core.Utilities/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "7.0.13"
+        },
         "runtime": {
           "Vinoteca-MVC-Core.Utilities.dll": {}
         }

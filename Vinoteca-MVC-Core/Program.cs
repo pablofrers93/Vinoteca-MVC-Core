@@ -3,6 +3,8 @@ using Vinoteca_MVC_Core.Data;
 using Vinoteca_MVC_Core.DataLayer.Repository;
 using Vinoteca_MVC_Core.DataLayer.Repository.Interfaces;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using Vinoteca_MVC_Core.Utilities;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
@@ -14,9 +16,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(
 	.UseSqlServer(builder.Configuration
 	.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddDefaultIdentity<IdentityUser>()
-	.AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+	.AddDefaultTokenProviders()
+	.AddEntityFrameworkStores<ApplicationDbContext>();	
+
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddSingleton<IEmailSender, EmailSender>();	
 builder.Services.AddRazorPages();
 
 var app = builder.Build();

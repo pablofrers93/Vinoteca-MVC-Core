@@ -22,5 +22,6 @@ namespace Vinoteca_MVC_Core.Data
         public DbSet<Variety> Varieties { get; set; }
         public DbSet<Winery> Wineries { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
     }
 }

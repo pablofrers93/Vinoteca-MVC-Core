@@ -1508,7 +1508,8 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
-          "Microsoft.EntityFrameworkCore": "7.0.13"
+          "Microsoft.EntityFrameworkCore": "7.0.13",
+          "Microsoft.Extensions.Identity.Stores": "7.0.13"
         },
         "compile": {
           "bin/placeholder/Vinoteca-MVC-Core.Models.dll": {}
