@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
@@ -15,9 +16,12 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using Vinoteca_MVC_Core.Models.Models;
 using Vinoteca_MVC_Core.Utilities;
 
 namespace Vinoteca_MVC_Core.Areas.Identity.Pages.Account
@@ -109,6 +113,9 @@ namespace Vinoteca_MVC_Core.Areas.Identity.Pages.Account
             public string State { get; set; }
             public string ZipCode { get; set; }
             public string PhoneNumber { get; set; }
+            public string Role { get; set; }
+            [ValidateNever]
+            public List<SelectListItem> RoleList { get; set; }
         }
 
 
@@ -122,6 +129,15 @@ namespace Vinoteca_MVC_Core.Areas.Identity.Pages.Account
                 await _roleManager.CreateAsync(new IdentityRole(Roles.Role_User_Individual));
             }
             ReturnUrl = returnUrl;
+            Input = new InputModel
+            {
+                RoleList = _roleManager.Roles.Select(x => x.Name)
+                            .Select(i => new SelectListItem
+                            {
+                                Text = i,
+                                Value = i
+                            }).ToList()
+        };
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
         }
 
@@ -132,6 +148,12 @@ namespace Vinoteca_MVC_Core.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
+                user.StreetAddress = Input.StreetAddress;
+                user.City = Input.City;
+                user.State = Input.State;
+                user.ZipCode = Input.ZipCode;
+                user.PhoneNumber = Input.PhoneNumber;
+                user.Name = Input.Name;
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
@@ -140,6 +162,15 @@ namespace Vinoteca_MVC_Core.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
+
+                    if (Input.Role == null)
+                    {
+                        await _userManager.AddToRoleAsync(user, Roles.Role_User_Individual);
+                    }
+                    else
+                    {
+                        await _userManager.AddToRoleAsync(user, Input.Role);
+                    }
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -173,11 +204,11 @@ namespace Vinoteca_MVC_Core.Areas.Identity.Pages.Account
             return Page();
         }
 
-        private IdentityUser CreateUser()
+        private ApplicationUser CreateUser()
         {
             try
             {
-                return Activator.CreateInstance<IdentityUser>();
+                return Activator.CreateInstance<ApplicationUser>();
             }
             catch
             {

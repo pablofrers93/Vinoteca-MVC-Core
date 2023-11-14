@@ -12,9 +12,9 @@ namespace Vinoteca_MVC_Core.Controllers
         private readonly IUnitOfWork _unitOfWork;
         private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public ProductController(IUnitOfWork unitOfWorkb, IWebHostEnvironment webHostEnvironment)
+        public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
         {
-            _unitOfWork = unitOfWorkb;
+            _unitOfWork = unitOfWork;
             _webHostEnvironment = webHostEnvironment;
         }
 
